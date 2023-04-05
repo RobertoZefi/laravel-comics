@@ -15,9 +15,9 @@
     <div class="container">
         <div class="row">
             @foreach($comics as $comic)
-            <div class="col" >
-                <div class="card">
-                    <img :src="{{ $comic['thumb'] }}" alt="">
+            <div class="card-col" >
+                <div class="card-comic">
+                    <img src="{{ $comic['thumb'] }}" alt="">
                     <h4 class="title">{{ $comic['title'] }}</h4>
                 </div>
             </div>

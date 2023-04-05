@@ -1,7 +1,7 @@
 <footer>
         <div class="gadget">
             <div class="container">
-                <ul class="list">
+                <ul class="list2">
                     <li>
                         <img src="/buy-comics-digital-comics.png" alt="">
                         <p>digital comics</p>

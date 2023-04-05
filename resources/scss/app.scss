@@ -4,12 +4,18 @@
 
 @import './partials/footer';
 
+@import './partials/comics';
+
 img{
     max-width: 100%;
 }
 
 ul{
     list-style: none;
+}
+
+p{
+    margin-bottom: 0 !important;
 }
 
 

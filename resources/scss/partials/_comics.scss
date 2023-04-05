@@ -1,0 +1,56 @@
+.hero{
+    padding-top: 54px;
+    padding-bottom: 20px;
+    background-color: #1C1C1C;
+}
+
+.card-col{
+    width: calc(100% / 6 - 140px / 6);
+    gap: 10px;
+}
+
+.button{
+    color: white;
+    text-transform: uppercase;
+    background-color: #0282F9;
+    padding: 13px 60px;
+    width: fit-content;
+    font-weight: 600;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.card-comic{
+    img{
+        aspect-ratio: 1;
+        object-fit: cover;
+    }
+    .title{
+        text-transform: uppercase;
+        color: white;
+        font-weight: 500;
+        margin-top: 20px;
+        font-size: 15px;
+    }
+}
+
+.bg-hero{
+    background-image: url('/jumbotron.jpg');
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    .container{
+        position: relative;
+        height: 100%;
+    }
+
+    .button{
+        font-size: 20px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        transform: translateY(50%);
+        padding: 13px 30px;
+    }
+}
