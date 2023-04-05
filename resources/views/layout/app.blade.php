@@ -11,7 +11,9 @@
 
     @include('partials.header')
 
-    <h1>daje</h1>
+    <main>
+        @yield('comics')
+    </main>
 
     @include('partials.footer')
 
