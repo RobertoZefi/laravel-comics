@@ -1,0 +1,17 @@
+.container{
+    padding: 20px 0;
+}
+.row{
+    justify-content: space-between;
+    align-items: center;
+}
+.list{
+    display: flex;
+    gap: 33px;
+
+    li{
+        text-transform: uppercase;
+        font-size: 14px;
+        color: #303030;
+    }
+}
