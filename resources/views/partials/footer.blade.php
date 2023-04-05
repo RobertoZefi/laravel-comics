@@ -30,7 +30,7 @@
             <div class="container">
                 <img class="logo" src="/dc-logo-bg.png" alt="">
                 <div class="row">
-                    <div class="col">
+                    <div class="col-2">
                         <ul class="info__list">
                             <li>
                                 <h3>dc comics</h3>
@@ -71,7 +71,7 @@
                         </ul>
                     </div>
 
-                    <div class="col">
+                    <div class="col-2">
                         <ul class="info__list">
                             <li>
                                 <h3>dc</h3>
@@ -111,7 +111,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col">
+                    <div class="col-2">
                         <ul class="info__list">
                             <li>
                                 <h3>sites</h3>
@@ -143,7 +143,7 @@
                     <div class="col">
                         <p class="button">sign-up now!</p>
                     </div>
-                    <div class="col__icon">
+                    <div class="col col__icon">
                         <h3>follow us</h3>
                         <div class="icon">
                             <img src="/footer-facebook.png" alt="">
